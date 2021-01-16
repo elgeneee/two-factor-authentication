@@ -22,9 +22,9 @@ public class Email {
         Random rand = new Random();
         random = rand.nextInt(10000 - 1000 +1) + 1000;
         //authentication info
-        final String username = "zolous.official@gmail.com";
-        final String password = "08292000";
-        String fromEmail = "zolous.official@gmail.com";
+        final String username = "xxxxxxx@gmail.com"; //abc@gmail.com
+        final String password = "xxxxxx";
+        String fromEmail = "xxxxxxxx@gmail.com"; //abc@gmail.com
         String toEmail = recipient;
         System.out.println("Sending Email....");
         Properties properties = new Properties();
